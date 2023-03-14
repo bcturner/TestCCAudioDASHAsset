@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://github.com/google/shaka-packager version v2.4.1-c731217-release-->
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT240S">
+  <Period id="0" start="PT00.00S" duration="PT60.00S">
+    <AdaptationSet id="0" contentType="text" lang="en" subsegmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation id="2" bandwidth="736" codecs="wvtt" mimeType="application/mp4">
+        <BaseURL>text_en.mp4</BaseURL>
+        <SegmentBase indexRange="727-950" timescale="1000">
+          <Initialization range="0-726"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="text" lang="fr" subsegmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="1" bandwidth="766" codecs="wvtt" mimeType="application/mp4">
+        <BaseURL>text_fr.mp4</BaseURL>
+        <SegmentBase indexRange="727-950" timescale="1000">
+          <Initialization range="0-726"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="2" contentType="audio" lang="en" subsegmentAlignment="true">
+      <Representation id="2" bandwidth="130803" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>audio_en_2c_128k_aac.mp4</BaseURL>
+        <SegmentBase indexRange="786-1009" timescale="48000">
+          <Initialization range="0-785"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="3" contentType="audio" lang="fr" subsegmentAlignment="true">
+      <Representation id="3" bandwidth="130446" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>audio_fr_2c_128k_aac.mp4</BaseURL>
+        <SegmentBase indexRange="786-1009" timescale="48000">
+          <Initialization range="0-785"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="4" contentType="audio" lang="de" subsegmentAlignment="true">
+      <Representation id="4" bandwidth="130432" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>audio_de_2c_128k_aac.mp4</BaseURL>
+        <SegmentBase indexRange="786-997" timescale="48000">
+          <Initialization range="0-785"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="5" contentType="video" maxWidth="720" maxHeight="576" frameRate="12800/512" par="5:4" subsegmentAlignment="true">
+      <Representation id="5" bandwidth="843675" codecs="avc1.64001e" mimeType="video/mp4" sar="1:1" width="720" height="576">
+        <BaseURL>video1.mp4</BaseURL>
+        <SegmentBase indexRange="860-1071" timescale="12800">
+          <Initialization range="0-859"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="1" start="PT60.00S" duration="PT60.00S">
+    <AdaptationSet id="0" contentType="text" lang="el" subsegmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="6" bandwidth="1044" codecs="wvtt" mimeType="application/mp4">
+        <BaseURL>text_el.mp4</BaseURL>
+        <SegmentBase indexRange="727-950" timescale="1000">
+          <Initialization range="0-726"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="text" lang="pt-BR" subsegmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="7" bandwidth="716" codecs="wvtt" mimeType="application/mp4">
+        <BaseURL>text_pt-BR.mp4</BaseURL>
+        <SegmentBase indexRange="727-950" timescale="1000">
+          <Initialization range="0-726"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="2" contentType="audio" lang="es" subsegmentAlignment="true">
+      <Representation id="8" bandwidth="130405" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>audio_es_2c_128k_aac.mp4</BaseURL>
+        <SegmentBase indexRange="786-1009" timescale="48000">
+          <Initialization range="0-785"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="3" contentType="audio" lang="it" subsegmentAlignment="true">
+      <Representation id="9" bandwidth="130582" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>audio_it_2c_128k_aac.mp4</BaseURL>
+        <SegmentBase indexRange="786-1009" timescale="48000">
+          <Initialization range="0-785"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="4" contentType="video" maxWidth="720" maxHeight="576" frameRate="12800/512" par="5:4" subsegmentAlignment="true">
+      <Representation id="10" bandwidth="843675" codecs="avc1.64001e" mimeType="video/mp4" sar="1:1" width="720" height="576">
+        <BaseURL>video2.mp4</BaseURL>
+        <SegmentBase indexRange="860-1071" timescale="12800">
+          <Initialization range="0-859"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="2" start="PT120.00S" duration="PT180.00S">
+    <AdaptationSet id="0" contentType="audio" lang="en" subsegmentAlignment="true">
+      <Representation id="11" bandwidth="130803" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>audio_en_2c_128k_aac.mp4</BaseURL>
+        <SegmentBase indexRange="786-1009" timescale="48000">
+          <Initialization range="0-785"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="video" maxWidth="720" maxHeight="576" frameRate="12800/512" par="5:4" subsegmentAlignment="true">
+      <Representation id="12" bandwidth="843675" codecs="avc1.64001e" mimeType="video/mp4" sar="1:1" width="720" height="576">
+        <BaseURL>video3.mp4</BaseURL>
+        <SegmentBase indexRange="860-1071" timescale="12800">
+          <Initialization range="0-859"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="3" start="PT180.00S" duration="PT240.00S">
+    <AdaptationSet id="0" contentType="audio" lang="en" subsegmentAlignment="true">
+      <Representation id="13" bandwidth="130803" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"> </Role>
+        <BaseURL>audio_en_2c_128k_aac.mp4</BaseURL>
+        <SegmentBase indexRange="786-1009" timescale="48000">
+          <Initialization range="0-785"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="audio" lang="en" subsegmentAlignment="true">
+      <Representation id="13" bandwidth="130803" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="alternate"> </Role>
+        <BaseURL>audio_en_2c_128k_aac.mp4</BaseURL>
+        <SegmentBase indexRange="786-1009" timescale="48000">
+          <Initialization range="0-785"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="2" contentType="text" lang="en" subsegmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="2" bandwidth="736" codecs="wvtt" mimeType="application/mp4">
+        <BaseURL>text_en.mp4</BaseURL>
+        <SegmentBase indexRange="727-950" timescale="1000">
+          <Initialization range="0-726"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="3" contentType="text" lang="en" subsegmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="caption"/>
+      <Representation id="2" bandwidth="736" codecs="wvtt" mimeType="application/mp4">
+        <BaseURL>text_en.mp4</BaseURL>
+        <SegmentBase indexRange="727-950" timescale="1000">
+          <Initialization range="0-726"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="4" contentType="video" maxWidth="720" maxHeight="576" frameRate="12800/512" par="5:4" subsegmentAlignment="true">
+      <Representation id="12" bandwidth="843675" codecs="avc1.64001e" mimeType="video/mp4" sar="1:1" width="720" height="576">
+        <BaseURL>video4.mp4</BaseURL>
+        <SegmentBase indexRange="860-1071" timescale="12800">
+          <Initialization range="0-859"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
